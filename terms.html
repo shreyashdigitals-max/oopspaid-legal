@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of use · OopsPaid</title>
+<meta name="description" content="Terms of use for the OopsPaid expense tracker.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="app_icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #F8FAFC; --surface: #FFFFFF; --ink: #0F172A; --muted: #64748B; --border: #E2E8F0;
+  --link: #047857; --navy: #0B1220;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #070B14; --surface: #0F172A; --ink: #F8FAFC; --muted: #94A3B8; --border: #1E293B; --link: #34D399; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.65 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+header a.brand { display: inline-flex; }
+header img { height: 36px; width: auto; display: block; }
+header nav { display: flex; gap: 16px; font-size: 14px; font-weight: 500; }
+header nav a { color: var(--muted); text-decoration: none; padding: 12px 0; }
+header nav a[aria-current] { color: var(--ink); }
+main { padding-top: 8px; }
+h1 { font-size: 30px; line-height: 1.2; letter-spacing: -0.02em; margin: 28px 0 4px; }
+.effective { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+h2 { font-size: 19px; line-height: 1.3; margin: 32px 0 8px; }
+p, li { color: var(--ink); }
+ul { padding-left: 22px; }
+li { margin: 6px 0; }
+a { color: var(--link); text-underline-offset: 2px; overflow-wrap: anywhere; }
+strong { font-weight: 600; }
+.cards { display: grid; gap: 12px; margin-top: 24px; }
+.card { display: block; padding: 18px 20px; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; text-decoration: none; color: var(--ink); }
+.card strong { display: block; font-size: 17px; }
+.card span { color: var(--muted); font-size: 14px; }
+footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="brand" href="./" aria-label="OopsPaid home">
+    <picture>
+      <source srcset="wordmark_dark.svg" media="(prefers-color-scheme: dark)">
+      <img src="wordmark_light.svg" alt="OopsPaid">
+    </picture>
+  </a>
+  <nav><a href="privacy">Privacy</a><a href="terms" aria-current="page">Terms</a></nav>
+</header>
+<main>
+<h1>Terms of use</h1>
+<p class="effective">Effective 1 August 2026</p>
+<p>These terms apply when you use OopsPaid, an expense tracker made by Shreyash Sitapara ("we"). By using the app you agree to them.</p>
+<h2>What OopsPaid is</h2>
+<p>OopsPaid helps you record and understand your own spending. It is a record-keeping tool. It doesn't make payments, move money or connect to your bank or UPI apps.</p>
+<h2>Not financial advice</h2>
+<p>Summaries, budgets and insights are calculated from the expenses you enter. They are information, not financial, tax or investment advice. For decisions about your money, talk to a qualified professional.</p>
+<h2>Check scanned details</h2>
+<p>Reading a screenshot can go wrong: an amount, date or merchant may be misread. OopsPaid always shows you what it found before anything is saved. Please check the details before you confirm. You're responsible for the accuracy of the expenses you save.</p>
+<h2>Your data</h2>
+<p>Your data is stored on your phone (see the Privacy policy). You're responsible for your phone and for any exports you make. If the app is uninstalled or the phone is lost or reset, the data may be lost unless you have a backup; use Settings › Google Drive backup, Back up or Export data to keep your own copy.</p>
+<h2>Acceptable use</h2>
+<p>Use OopsPaid only for lawful purposes and only with information you're allowed to use. Don't try to copy, reverse-engineer or resell the app, except where the law allows it.</p>
+<h2>The app is provided as is</h2>
+<p>We work to keep OopsPaid accurate and reliable, but we provide it "as is" and "as available", without warranties of any kind, to the extent the law allows. We aren't liable for indirect or consequential losses arising from your use of the app. Nothing in these terms limits rights you have under consumer protection law that can't be limited.</p>
+<h2>Changes and ending</h2>
+<p>We may update the app and these terms. If the terms change in an important way, the app will tell you. You can stop using OopsPaid at any time by uninstalling it.</p>
+<h2>Law</h2>
+<p>These terms are governed by the laws of India. The courts of Gandhidham, Gujarat have jurisdiction.</p>
+<h2>Contact</h2>
+<p>Shreyash Sitapara · <a href="mailto:shreyashdigitals@gmail.com">shreyashdigitals@gmail.com</a></p>
+</main>
+<footer>OopsPaid · Track it. Understand it. Save better.</footer>
+</div>
+</body>
+</html>

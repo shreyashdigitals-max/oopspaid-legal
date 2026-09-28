@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OopsPaid</title>
+<meta name="description" content="OopsPaid privacy policy and terms of use.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="app_icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #F8FAFC; --surface: #FFFFFF; --ink: #0F172A; --muted: #64748B; --border: #E2E8F0;
+  --link: #047857; --navy: #0B1220;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #070B14; --surface: #0F172A; --ink: #F8FAFC; --muted: #94A3B8; --border: #1E293B; --link: #34D399; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.65 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+header a.brand { display: inline-flex; }
+header img { height: 36px; width: auto; display: block; }
+header nav { display: flex; gap: 16px; font-size: 14px; font-weight: 500; }
+header nav a { color: var(--muted); text-decoration: none; padding: 12px 0; }
+header nav a[aria-current] { color: var(--ink); }
+main { padding-top: 8px; }
+h1 { font-size: 30px; line-height: 1.2; letter-spacing: -0.02em; margin: 28px 0 4px; }
+.effective { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+h2 { font-size: 19px; line-height: 1.3; margin: 32px 0 8px; }
+p, li { color: var(--ink); }
+ul { padding-left: 22px; }
+li { margin: 6px 0; }
+a { color: var(--link); text-underline-offset: 2px; overflow-wrap: anywhere; }
+strong { font-weight: 600; }
+.cards { display: grid; gap: 12px; margin-top: 24px; }
+.card { display: block; padding: 18px 20px; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; text-decoration: none; color: var(--ink); }
+.card strong { display: block; font-size: 17px; }
+.card span { color: var(--muted); font-size: 14px; }
+footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="brand" href="./" aria-label="OopsPaid home">
+    <picture>
+      <source srcset="wordmark_dark.svg" media="(prefers-color-scheme: dark)">
+      <img src="wordmark_light.svg" alt="OopsPaid">
+    </picture>
+  </a>
+  <nav><a href="privacy">Privacy</a><a href="terms">Terms</a></nav>
+</header>
+<main>
+<h1>OopsPaid</h1>
+<p class="effective">Track it. Understand it. Save better.</p>
+<p>OopsPaid is an expense tracker for Android that turns payment screenshots into expenses. Your expenses stay on your phone.</p>
+<div class="cards">
+  <a class="card" href="privacy"><strong>Privacy policy</strong><span>What OopsPaid stores, and where</span></a>
+  <a class="card" href="terms"><strong>Terms of use</strong><span>The rules for using the app</span></a>
+</div>
+</main>
+<footer>OopsPaid · Track it. Understand it. Save better.</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · OopsPaid</title>
+<meta name="description" content="How the OopsPaid expense tracker handles your data.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="app_icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #F8FAFC; --surface: #FFFFFF; --ink: #0F172A; --muted: #64748B; --border: #E2E8F0;
+  --link: #047857; --navy: #0B1220;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #070B14; --surface: #0F172A; --ink: #F8FAFC; --muted: #94A3B8; --border: #1E293B; --link: #34D399; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.65 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+header a.brand { display: inline-flex; }
+header img { height: 36px; width: auto; display: block; }
+header nav { display: flex; gap: 16px; font-size: 14px; font-weight: 500; }
+header nav a { color: var(--muted); text-decoration: none; padding: 12px 0; }
+header nav a[aria-current] { color: var(--ink); }
+main { padding-top: 8px; }
+h1 { font-size: 30px; line-height: 1.2; letter-spacing: -0.02em; margin: 28px 0 4px; }
+.effective { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+h2 { font-size: 19px; line-height: 1.3; margin: 32px 0 8px; }
+p, li { color: var(--ink); }
+ul { padding-left: 22px; }
+li { margin: 6px 0; }
+a { color: var(--link); text-underline-offset: 2px; overflow-wrap: anywhere; }
+strong { font-weight: 600; }
+.cards { display: grid; gap: 12px; margin-top: 24px; }
+.card { display: block; padding: 18px 20px; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; text-decoration: none; color: var(--ink); }
+.card strong { display: block; font-size: 17px; }
+.card span { color: var(--muted); font-size: 14px; }
+footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="brand" href="./" aria-label="OopsPaid home">
+    <picture>
+      <source srcset="wordmark_dark.svg" media="(prefers-color-scheme: dark)">
+      <img src="wordmark_light.svg" alt="OopsPaid">
+    </picture>
+  </a>
+  <nav><a href="privacy" aria-current="page">Privacy</a><a href="terms">Terms</a></nav>
+</header>
+<main>
+<h1>Privacy policy</h1>
+<p class="effective">Effective 1 August 2026</p>
+<p>OopsPaid is an expense tracker made by Shreyash Sitapara ("we"). This policy explains what the app does with your information. The short version: <strong>your expenses stay on your phone.</strong> We don't have servers, accounts or ads, and we can't see your data. If you turn on Google Drive backup, a copy goes to your own Google Drive, which we can't see either.</p>
+<h2>What the app stores</h2>
+<ul><li>The expenses you add or scan: amount, merchant, category, date, payment method, notes, tags and, for scanned payments, the UPI reference number.</li><li>Income you add (for your savings rate), your savings goals, and the names of friends you split expenses with.</li><li>Your budgets, bills and subscriptions, and settings (theme, budget alerts, the category you chose for each merchant and similar).</li></ul>
+<p>All of this is saved in the app's private storage on your phone. It is not sent to us. The only copy that leaves your phone is the Google Drive backup, and only if you turn it on.</p>
+<h2>Payment screenshots</h2>
+<p>When you scan a screenshot, the text in the image is read <strong>on your phone</strong> by Google ML Kit's on-device text recognition. The image and its text are not uploaded. OopsPaid does not keep a copy of the image: only the details you confirm are saved as an expense.</p>
+<p>If you attach a <strong>receipt photo</strong> to an expense, a copy of that photo is kept in the app's private storage on your phone. It isn't uploaded and isn't included in backup files. Removing the photo or deleting the expense deletes it.</p>
+<p>To pick a screenshot the app uses Android's photo picker, and to take a photo it opens your camera app. OopsPaid can only see the images you choose.</p>
+<p>If you turn on <strong>Find new payment screenshots</strong> (off by default), OopsPaid asks for access to your photos. It then looks only at your Screenshots folder, only when you open the app, and reads new screenshots on your phone to offer the payments it finds. Other photos aren't read. You can turn this off in Settings, or remove photo access in Android settings, at any time.</p>
+<h2>Information sent to Google</h2>
+<p>Google ML Kit may contact Google's servers to receive updates and to send anonymous metrics about how the text-recognition feature performs (for example, device type and processing time). These metrics don't include your images, the text in them or your expenses. Google handles them under its own privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+<p>If you install OopsPaid from Google Play, Google Play may also collect information under Google's terms, such as crash reports if you've turned those on for your device.</p>
+<h2>Google Drive backup</h2>
+<p>Google Drive backup is off until you turn it on in Settings. When you do, you choose a Google account and allow OopsPaid to use its own app folder in that account's Google Drive (the "drive.appdata" permission). OopsPaid then:</p>
+<ul><li>saves a backup file there straight away, and again about once a week when you open the app. The file has the same data as a backup you save yourself: your expenses, budgets, bills and subscriptions, income, goals, splits and settings. Receipt photos and App lock are not included.</li><li>keeps the 7 newest backup files and deletes older ones.</li><li>reads a backup file only when you choose Restore.</li></ul>
+<p>The app folder is hidden: it doesn't show up among your Drive files, and other apps can't open it. OopsPaid can't see any of your other Drive files. It also receives your Google account's name and email address, to show which account backups go to; they stay on your phone.</p>
+<p>The backup travels directly from your phone to Google over an encrypted connection. We don't receive it and have no copy. Google stores it under its own privacy policy (https://policies.google.com/privacy), and it counts toward your Google storage.</p>
+<p>You can turn Google Drive backup off in Settings at any time, and choose to delete the backups in Drive when you do. You can also remove OopsPaid's access at <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a>, or delete its hidden data in Google Drive › Settings › Manage apps.</p>
+<h2>Notifications</h2>
+<p>If you allow notifications, OopsPaid shows budget alerts and reminders for your bills and subscriptions on your phone. They are created on the phone; nothing is sent over the internet.</p>
+<h2>Sharing</h2>
+<p>OopsPaid only shares something when you ask it to: a split reminder or your Wrapped card opens Android's share sheet, and you choose the app and the person. OopsPaid itself doesn't send it anywhere.</p>
+<h2>Exporting your data</h2>
+<p>Settings › Export data saves your expenses as a CSV file to a place you choose. After that, the file is under your control.</p>
+<h2>Deleting your data</h2>
+<ul><li>Settings › Delete data removes all expenses, budgets and custom categories from the app.</li><li>Uninstalling OopsPaid removes everything it stored on your phone.</li><li>Google Drive backups stay in your Drive until you delete them: turn off Google Drive backup in Settings and choose to delete the backups, or delete OopsPaid's hidden data in Google Drive › Settings › Manage apps.</li></ul>
+<p>Because we never receive your data, we have no copy to delete or share.</p>
+<h2>Children</h2>
+<p>OopsPaid is intended for people aged 18 and over.</p>
+<h2>Your rights</h2>
+<p>Under India's Digital Personal Data Protection Act, 2023, you have rights over your personal data. Since OopsPaid data stays on your device (and, if you turn on backup, in your own Google Drive), you can view, correct, export and erase it yourself in the app at any time. For any question or complaint, contact us below.</p>
+<h2>Changes</h2>
+<p>If this policy changes, we'll update it here and change the effective date. If a future version adds features like sign-in or sync, the policy will explain them before they are switched on.</p>
+<h2>Contact</h2>
+<p>Shreyash Sitapara · <a href="mailto:shreyashdigitals@gmail.com">shreyashdigitals@gmail.com</a></p>
+</main>
+<footer>OopsPaid · Track it. Understand it. Save better.</footer>
+</div>
+</body>
+</html>
